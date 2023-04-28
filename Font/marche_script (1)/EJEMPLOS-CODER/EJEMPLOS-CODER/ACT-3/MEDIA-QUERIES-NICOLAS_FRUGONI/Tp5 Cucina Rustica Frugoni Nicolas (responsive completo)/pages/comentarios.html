@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/favicon_cucina.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css"><!-- defino la carperta de buscqueda se sugiere hacerlo en head-->
+    <title>Cucina Rustica</title>
+</head>
+<body>
+    <div id="grid_index"></div>
+        <header id="inicio" class="textos_header"><!-- Cabecera de documento--> 
+            <img src="../imagenes/Logo.png" alt="Cucina_Rústica" class="logo_cucina"></img>
+            <nav>
+                <ul class="nav_principal">
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li><!-- items de la lista ,  ..// hace que las pantallas vuelvan a la principal-->
+                    <li>
+                        <a href="./recetarios.html">Recetarios</a>
+                    </li>
+                    <li>
+                        <a href="./galeria_tematica.html">Galeria temática</a>
+                    </li>
+                    <li>
+                        <a href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./comentarios.html">Comentarios</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="pages_comentarios">
+                    <h4>Tu opinión nos ayuda a seguir mejorando</h4>
+                    <form> <!-- Formulario-->  
+                        <div class="form_comentarios">
+                            <fieldset> 
+                                    <legend class="pages_comentarios_titulo">Ingresa tus datos personales</legend>
+                                <div class="pages_comentarios_nombre"><!-- etiqueta que ocupa toda la pantalla-->  
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" id="nombre" placeholder="--"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
+                                </div>
+                                <div class="pages_comentarios_apellido"><!-- etiqueta que ocupa toda la pantalla-->  
+                                    <label for="apellido">Apellido:</label>
+                                    <input type="text" id="apellido" placeholder="--"> <!-- tipo texto, el campo id debe tener lo mismo que el for-->  
+                                </div>
+                                <div class="pages_comentarios_email">
+                                    <label for="correo">E-mail:</label>
+                                    <input type="email" placeholder="@"> <!-- mail activa en el celuar @ en teclado del campo--> 
+                                </div>
+                                <div class="pages_comentarios_estado_civil">
+                                    <label for="desplegable"></label>
+                                    Estado civil:
+                                    <select id="">
+                                        <option value="opcion1"></option>
+                                        <option value="opcion2">Soltero/a</option>
+                                        <option value="opcion3">Casado/a</option>
+                                    </select>
+                                </div>
+                                <div class="pages_comentarios_tipo_coccion">
+                                    <label for="desplegable"></label>
+                                    Tipo de cocción prefiere?
+                                    <select id="">
+                                        <option value="opcion1"></option>
+                                        <option value="opcion2">Parrilla</option>
+                                        <option value="opcion3">Estaca</option>
+                                        <option value="opcion4">Cocina a leña</option>
+                                        <option value="opcion5">Horno de barro</option>
+                                    </select>
+                                </div>
+                                <div class="pages_comentarios_novedades">
+                                ¿Desea recibir novedades?
+                                <!-- para el múltiple no hace falta el -->
+                                    <label for="opcion1"></label>
+                                    <input type="checkbox" id="opcion1">
+                                </div>
+                                <div class="pages_comentarios_coment">
+                                    <textarea name="" id="" cols="40" rows="10">Comentario</textarea>
+                                </div>  
+                                <div class="pages_comentarios_botton">
+                                    <input type="reset" value="Limpiar formulario"><!-- Input type reset es el que resetea la informacion-->
+                                    <input type="submit" value="Enviar formulario">  <!-- Input type submit es el que envia la informacion-->
+                                </div>  
+                            </fieldset> 
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer">
+                <div class="contendor_footer_datos">
+                    <p>© Copyright Frugoni Nicolás</p>
+                    <p>Desarrollo de páginas a medida</p>      
+                    <p>#Seguinos en redes sociales:</p>
+                </div>
+                <div class="red_social">
+                    <ul>
+                        <li><p><a href="https://www.instagram.com" target="_blank">Instagram</a></p></li><!-- va ir el elance de instagram de la pagina-->
+                        <li><p><a href="https://www.facebook.com" target="_blank">Facebook</a></p></li><!-- va ir el elance de facebook de la pagina-->
+                    </ul>
+                </div>
+            </div>        
+        </footer>
+    </div>
+    </body>
+</body>
+</html>

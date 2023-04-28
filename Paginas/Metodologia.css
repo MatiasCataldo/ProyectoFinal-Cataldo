@@ -1,0 +1,21 @@
+body h1{
+    text-align: center;
+    text-decoration: solid;
+    color:black;
+    font-size: 40px;
+    font-family:fantasy;
+}
+
+.fotoMetodologia{
+    display:flex;
+    margin: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255);   
+    background-size: cover;
+    background-position:initial;
+    font-family: sans-serif;
+    margin: 0;
+}
