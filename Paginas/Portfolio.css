@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap');
 
+header{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(192, 192, 185);
+}
 
 
 body h1{
@@ -12,7 +19,7 @@ body h1{
 }
 
 .galeria{
-    width: 97%;
+    width: 100%;
     min-height: 300px;
     background-color:rgb(192, 192, 185);  
     display: grid;
@@ -147,3 +154,19 @@ body h1{
         grid-row: 5/7;
     }
 }
+
+.carousel-inner{
+    height: 400px;
+    width: 100%;
+    background-color:rgb(192, 192, 185); 
+    margin-bottom: 20px;
+    border-style:solid;
+    border-color: black;
+}
+
+.carousel-inner img{
+    object-fit: scale-down; 
+    height: 400px; 
+    width: 100%
+}
+
