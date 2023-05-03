@@ -3,10 +3,8 @@
     src: url(./Font/phantom_storm/phantomstorm.ttf);
 }
 
-
-
 header{
-    display: flex;
+    display: flex !important;
     min-height: 70px; 
     background-color: coral;
     justify-content: space-between;
@@ -39,6 +37,9 @@ nav a:hover{
         padding: 10px 0px;
     }
     
+    header img{
+        padding-top: 10px;
+    }
 }
 
 .logo{
@@ -91,6 +92,9 @@ h1{
 section{
     background-image: url(./Imagenes/fondo.jpg);
     background-size: cover;
+    border: 5px solid #000;
+    border-radius: 7px;
+    border-color: black;
     display: flex;
     -webkit-display: box;
     -moz-display: box;
@@ -209,8 +213,9 @@ section{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: #fff !important;
     margin-right: 10px;
+    margin-bottom: 15px;
     background-color: #0d2033;
     text-align: center;
     transition: all 300ms ease;
@@ -267,6 +272,7 @@ body{
     height: 40px;
     width: 100%;
     padding: 0px;
+    margin-top: 15px;
     margin-bottom: 10px;
     background-color: #9b9090;
     border: 0px;

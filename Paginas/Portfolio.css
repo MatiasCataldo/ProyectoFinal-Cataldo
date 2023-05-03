@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap');
 
-header{
-    width: 100%;
-}
-
 body{
     background-color: rgb(192, 192, 185);
 }
-
 
 body h1{
     text-align: center;
@@ -167,6 +162,6 @@ body h1{
 .carousel-inner img{
     object-fit: scale-down; 
     height: 400px; 
-    width: 100%
+    width: 100%;
 }
 

@@ -1,19 +1,20 @@
+header{
+    width: 100%;
+    border-radius: 0px;
+}
+
 body h1{
     text-align: center;
     text-decoration: solid;
     color:black;
     font-size: 40px;
-    font-family:fantasy;
+    font-family: Hamilton;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color:rgb(255, 255, 255);   
-    background-size: cover;
-    background-position:initial;
-    font-family: sans-serif;
-    margin: 0;
+    background-color:rgb(255, 255, 255);
 }
 
 .galeria{
@@ -48,6 +49,7 @@ body{
     .galeria{
         grid-template-columns: 1fr, 1fr;
         grid-template-rows: repeat(8, 200px);
+        background-size: cover;
     }
     .item1{
         grid-column: 1/3;
