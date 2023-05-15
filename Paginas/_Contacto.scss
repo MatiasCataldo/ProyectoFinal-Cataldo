@@ -1,0 +1,25 @@
+.titulo{
+    text-align: center;
+    text-decoration: solid;
+    color:black;
+    font-size: 40px;
+    font-family: Hamilton;
+}
+
+form{
+    margin-bottom: 15px;
+}
+
+.color1{
+    display:list-item;
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(184, 175, 175, 0.938);
+    border-radius: 10px;
+}
+
+.color1 a{
+    padding: 10px;
+}
