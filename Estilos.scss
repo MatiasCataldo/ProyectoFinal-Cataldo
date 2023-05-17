@@ -1,68 +1,63 @@
 @font-face {
     font-family: Hamilton;
     src: url(./Font/phantom_storm/phantomstorm.ttf);
-}
-/*Variables*/
-$color1: coral;
-$color2: black;
-$color3: white;
-$fuente1: Hamilton;
-
-header{
+  }
+  /*Variables*/
+  
+  header {
     display: flex !important;
-    min-height: 70px; 
-    background-color: $color1;
+    min-height: 70px;
+    background-color: coral;
     justify-content: space-between;
     align-items: center;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-}
-
-a{
+  }
+  
+  a {
     text-decoration: none;
-    color: $color2;
-    font-family: $fuente1;
-}
-
-nav a{
+    color: black;
+    font-family: Hamilton;
+  }
+  
+  nav a {
     font-weight: 1000;
     padding-right: 10px;
-    &:hover{
-        color: $color3;
+  }
+  
+  nav a:hover {
+    color: white;
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 700px) {
+    header {
+      flex-direction: column;
     }
-}
-
-@media (max-width: 700px){
-    header{ 
-        flex-direction: column;
+    nav {
+      padding: 10px 0px;
     }
-
-    nav{
-        padding: 10px 0px;
+    header img {
+      padding-top: 10px;
     }
-    
-    header img{
-        padding-top: 10px;
-    }
-}
-
-.logo{
+  }
+  .logo {
     display: flex;
-
-}
-.logo:hover{
-    text-shadow: 0 0 10px $color3;
-}
-
-
-.logo img{
+  }
+  
+  .logo:hover {
+    text-shadow: 0 0 10px white;
+    transform: scale(1.1);
+  }
+  
+  .logo img {
     height: 50px;
     align-items: center;
     margin-right: 10px;
     margin-left: 10px;
-}
-
-main{
+  }
+  
+  main {
     width: 100%;
     height: 100vh;
     background-color: #333;
@@ -72,33 +67,52 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-
-
-
-.call{
-    color: $color3;
+  }
+  
+  .call {
+    color: white;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     width: 90%;
     border-radius: 10px;
-}
-
-h1{
-    color: $color3;
-    font-family: $fuente1;
+  }
+  
+  .call p{
+    justify-content: center;
+    text-align: justify;
+    font-family: Hamilton;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  h1 {
+    color: white;
+    font-family: Hamilton;
     margin-bottom: 20px;
     font-size: 40px;
     text-align: center;
-}
-
-section{
+  }
+  
+  .muestra{
     background-image: url(./Imagenes/fondo.jpg);
     background-size: cover;
     border: 5px solid #000;
     border-radius: 7px;
-    border-color: $color2;
+    border-color: black;
+  }
+  
+  .muestra h3{
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: Hamilton;
+    font-size: 50px;
+    color: #fff;
+   
+  }
+  
+  .muestra section {
     display: flex;
     -webkit-display: box;
     -moz-display: box;
@@ -108,12 +122,12 @@ section{
     padding: 0;
     margin: 0;
     justify-content: center;
-}
-
-.card{
+  }
+  
+  .muestra .card {
     width: 100%;
     min-height: 300px;
-    background-color:$color1;
+    background-color: coral;
     padding: 25px;
     border: 5px solid #000;
     border-radius: 10px;
@@ -122,168 +136,162 @@ section{
     height: 200px;
     width: 200px;
     text-align: center;
-}
-
-.card__img1{
+  }
+  
+  .card__img1 {
     display: flex;
     height: 300px;
     background-image: url(./Imagenes/imagen1.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-}
-
-.card__img2{
+  }
+  
+  .card__img2 {
     height: 300px;
     background-image: url(./Imagenes/imagen3.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-}
-
-.card__img3{
+  }
+  
+  .card__img3 {
     height: 300px;
     background-image: url(./Imagenes/imagen4.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-}
-
-.card__img4{
+  }
+  
+  .card__img4 {
     height: 300px;
     background-image: url(./Imagenes/imagen5.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-}
-
-.card--xs{
+  }
+  
+  .card--xs {
     width: 30%;
-}
-
-.call p{
-    font-family: 'Roboto', sans-serif; 
+  }
+  
+  .call p {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     margin-bottom: 20px;
     font-size: 20px;
-}
-
-.call a{
-    background-color: $color1;
-    color: $color3;
+  }
+  
+  .call a {
+    background-color: coral;
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
     text-shadow: 0 0 5px #000;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    &:hover{
-        color: $color2;
-    }
-}
-
-.pie-pagina{
+    font-family: "Oswald", sans-serif;
+  }
+  .call a:hover {
+    color: black;
+  }
+  
+  .pie-pagina {
     width: 100%;
     background-color: #0a141d;
-}
-
-.pie-pagina .grupo-1{
+  }
+  
+  .pie-pagina .grupo-1 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
-}
-
-.pie-pagina .grupo-1 .box figure img{
+    grid-gap: 50px;
+  }
+  
+  .pie-pagina .grupo-1 .box figure img {
     height: 50px;
     align-items: center;
     margin-right: 5px;
     margin-left: 5px;
-}
-
-.pie-pagina .grupo-1 .box h2{
-    color: $color3;
+  }
+  
+  .pie-pagina .grupo-1 .box h2 {
+    color: white;
     margin-bottom: 25px;
     font-size: 20px;
-}
-
-
-.pie-pagina .grupo-1 .red-social a{
+  }
+  
+  .pie-pagina .grupo-1 .red-social a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: $color3 !important;
+    color: white !important;
     margin-right: 10px;
     margin-bottom: 15px;
     background-color: #0d2033;
     text-align: center;
     transition: all 300ms ease;
-}
-
-.pie-pagina .grupo-1 .red-social a:hover{
+  }
+  
+  .pie-pagina .grupo-1 .red-social a:hover {
     color: aqua;
-}
-
-.pie-pagina .grupo-2{
+  }
+  
+  .pie-pagina .grupo-2 {
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
-}
-.pie-pagina .grupo-2 small{
+  }
+  
+  .pie-pagina .grupo-2 small {
     font-size: 15px;
-}
-@media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
     }
-}
-
-body{
+  }
+  body {
     padding: 0px;
     margin: 0px;
     background-color: #9b9090;
-}
-
-.botonVerMas{
+  }
+  
+  .botonVerMas {
     display: flex;
-    background-color: $color1;
+    background-color: coral;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
     text-shadow: 0 0 5px #000;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     margin-bottom: 20px;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    &:hover{
-        color: $color2;
-    }
-}
-
-.verMas{
+  }
+  .botonVerMas:hover {
+    color: black;
+  }
+  
+  .verMas {
     height: 40px;
     width: 100%;
     padding: 0px;
     margin-top: 15px;
     margin-bottom: 10px;
     background-color: #9b9090;
-    border: 0px; 
+    border: 0px;
     text-align: center;
     align-items: center;
-}
-
-@import url(Paginas/_AcercaDeMi.scss);
-@import url(Paginas/_Contacto.scss);
-@import url(Paginas/_Metodologia.scss);
-@import url(Paginas/_Portfolio.scss);
-
+  }/*# sourceMappingURL=Estilos.css.map */

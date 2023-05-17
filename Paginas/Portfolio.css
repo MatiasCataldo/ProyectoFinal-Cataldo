@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap");
+
+
 body {
   background-color: rgb(192, 192, 185);
 }
@@ -7,9 +9,13 @@ body h1 {
   text-align: center;
   text-decoration: solid;
   color: black;
-  font-size: 40px;
-  font-family: fantasy;
+  font-size: 50px;
+  font-family: Hamilton;
   margin: 5px;
+}
+body p{
+  text-align: center;
+  font-size: 30px;
 }
 
 .galeria {

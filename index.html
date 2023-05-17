@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="descrition" content="fotografo profesional con 10 años de experiencia en el rubro, dedicado a todotipo de proyectos fotograficos y videograficos.">
+    <meta name="keywords" content="fotografo, fotografia, book, fotos, album fotos, fotografia productos">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Imagenes/camera.png" type="image/x-icon">
     <link rel="stylesheet" href="./Estilos.css">
-    <title>EzecoPH</title>
+    <title>Fotografia EzecoPH</title>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -24,28 +27,34 @@
     </header>
     <main>
         <div class="call">
-            <h1>Fotografia Ezequiel Coria</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eum accusamus eius sed a consequuntur quisquam enim, autem cumque ratione! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo id soluta odit, minima temporibus distinctio ipsam omnis! Tenetur unde facere molestiae, non incidunt voluptatum blanditiis illo officia aliquid? Maiores, sed!</p>
-            <a href="./Paginas/AcercaDeMi.html">Mas info</a>
+            <div data-aos="fade-down">
+                <h1>Fotografia Ezequiel Coria</h1><br>
+                <p>Hola! Soy Ezequiel Coria, un fotografo profesional dedicado a la fotografia y filmación, con mas de 10 años de experiencia en el mundo de la fotografia.</p>
+                <p>Me dedico a todo tipos de trabajos como Books, Foto productos, Fiestas de 15, Casamientos o Fiestas de Egresados. Trabajo tanto para marcas y revistas, como para usurios.</p>
+                <a href="./Paginas/AcercaDeMi.html">Mas info</a>
+            </div>
         </div>
     </main>
-    <section>
-        <article class="card card--xs">
-            <div class="card__img1"></div>
-        </article>
-        <article class="card card--xs">
-            <div class="card__img2"></div>
-        </article>
-        <article class="card card--xs">
-            <div class="card__img3"></div>
-        </article>
-        <article class="card card--xs">
-            <div class="card__img4"></div>
-        </article>
-    </section>
-    <button type="button" class="verMas">
-        <a class="botonVerMas" href="./Paginas/Portfolio.html">Ver Mas</a>
-    </button>
+    <div class="muestra">
+        <h3>Mis Proyectos</h3>
+        <section>
+            <article class="card card--xs">
+                <div class="card__img1"></div>
+            </article>
+            <article class="card card--xs">
+                <div class="card__img2"></div>
+            </article>
+            <article class="card card--xs">
+                <div class="card__img3"></div>
+            </article>
+            <article class="card card--xs">
+                <div class="card__img4"></div>
+            </article>
+        </section>
+        <button type="button" class="verMas">
+            <a class="botonVerMas" href="./Paginas/Portfolio.html">Ver Mas</a>
+        </button>
+    </div>
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -70,5 +79,10 @@
             <small>&copy; 2023 <b>EzecoPH</b> - Todos los Derechos Reservados.®</small>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
