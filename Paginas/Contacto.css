@@ -6,14 +6,18 @@
 .titulo {
   text-align: center;
   text-decoration: solid;
-  color: black;
+  color: white;
   font-size: 40px;
   font-family: Hamilton;
 }
 
-
 form {
   margin-bottom: 15px;
+  background-image: url(../Imagenes/FondoContacto.png);
+  background-size: cover;
+  filter:grayscale(0.3);
+  padding: 10px;
+  margin: 0px;
 }
 
 
@@ -22,10 +26,13 @@ form p{
   text-align: center;
   font-family: Wedding;
   font-size: 25px;
+  color: white;
+  text-shadow: 0 0 10px rgb(15, 14, 14);
 }
 
 form h3{
   text-align: center;
+  color:white
 }
 
 .color1 {
@@ -34,7 +41,7 @@ form h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(184, 175, 175, 0.938);
+  background-color: rgba(184, 175, 175, 0.466);
   border-radius: 10px;
 }
 
