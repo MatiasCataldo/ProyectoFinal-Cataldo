@@ -58,7 +58,8 @@ nav a:hover {
 
 main {
   width: 100%;
-  height: auto;
+  height: 600px;
+  padding: 10px;
   background-color: #333;
   background-image: url(./Imagenes/imagen2.png);
   background-size: cover;
