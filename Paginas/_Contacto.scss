@@ -1,46 +1,52 @@
 @font-face {
-    font-family: Wedding;
-    src: url(../Font/Vintage\ Signature.otf);
-  }
-  
-  .titulo {
-    text-align: center;
-    text-decoration: solid;
-    color: black;
-    font-size: 40px;
-    font-family: Hamilton;
-  }
-  
-  
-  form {
-    margin-bottom: 15px;
-  }
-  
-  
-  form p{
-    margin: 0;
-    text-align: center;
-    font-family: Wedding;
-    font-size: 25px;
-  }
-  
-  form h3{
-    text-align: center;
-  }
-  
-  .color1 {
-    display: list-item;
-    min-height: 70px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(184, 175, 175, 0.938);
-    border-radius: 10px;
-  }
-  
-  .color1 a {
-    padding: 10px;
-  }
-  
-  /*# sourceMappingURL=Contacto.css.map */
-  
+  font-family: Wedding;
+  src: url(../Font/Vintage\ Signature.otf);
+}
+
+.titulo {
+  text-align: center;
+  text-decoration: solid;
+  color: white;
+  font-size: 40px;
+  font-family: Hamilton;
+}
+
+form {
+  margin-bottom: 15px;
+  background-image: url(../Imagenes/FondoContacto.png);
+  background-size: cover;
+  filter:grayscale(0.3);
+  padding: 10px;
+  margin: 0px;
+}
+
+
+form p{
+  margin: 0;
+  text-align: center;
+  font-family: Wedding;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 10px rgb(15, 14, 14);
+}
+
+form h3{
+  text-align: center;
+  color:white
+}
+
+.color1 {
+  display: list-item;
+  min-height: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(184, 175, 175, 0.466);
+  border-radius: 10px;
+}
+
+.color1 a {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=Contacto.css.map */
