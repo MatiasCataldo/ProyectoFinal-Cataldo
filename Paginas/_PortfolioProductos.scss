@@ -43,35 +43,35 @@ body p{
 }
 
 .item1 {
-  background-image: url(../Imagenes/foto_item1.jpg);
+  background-image: url(../Imagenes/foto_Producto1.png);
 }
 
 .item2 {
-  background-image: url(../Imagenes/foto_item2.jpg);
+  background-image: url(../Imagenes/foto_Producto5.png);
 }
 
 .item3 {
-  background-image: url(../Imagenes/foto_item3.jpg);
+  background-image: url(../Imagenes/foto_Producto3.png);
 }
 
 .item4 {
-  background-image: url(../Imagenes/foto_item4.jpg);
+  background-image: url(../Imagenes/foto_Producto4.png);
 }
 
 .item5 {
-  background-image: url(../Imagenes/foto_item5.jpg);
+  background-image: url(../Imagenes/foto_Producto2.png);
 }
 
 .item6 {
-  background-image: url(../Imagenes/foto_item6.jpg);
+  background-image: url(../Imagenes/foto-producto6.jpeg);
 }
 
 .item7 {
-  background-image: url(../Imagenes/foto_item7.jpg);
+  background-image: url(../Imagenes/foto_Producto7.jpeg);
 }
 
 .item8 {
-  background-image: url(../Imagenes/foto_item8.jpg);
+  background-image: url(../Imagenes/foto_producto8.jpeg);
 }
 
 @media only screen and (min-width: 480px) {
@@ -135,7 +135,7 @@ body p{
     grid-row: 1/3;
   }
   .item4 {
-    grid-column: 1/3;
+    grid-column: 1/2;
     grid-row: 3/5;
   }
   .item5 {
@@ -144,30 +144,16 @@ body p{
   }
   .item6 {
     grid-column: 3/5;
-    grid-row: 7/9;
+    grid-row: 5/9;
   }
   .item7 {
     grid-column: 1/3;
     grid-row: 5/9;
   }
   .item8 {
-    grid-column: 3/5;
-    grid-row: 5/7;
+    grid-column: 2/3;
+    grid-row: 3/5;
   }
-}
-.carousel-inner {
-  height: 400px;
-  width: 100%;
-  background-color: rgb(192, 192, 185);
-  margin-bottom: 20px;
-  border-style: solid;
-  border-color: black;
-}
-
-.carousel-inner img {
-  object-fit: scale-down;
-  height: 400px;
-  width: 100%;
 }
 
 /*# sourceMappingURL=Portfolio.css.map */
