@@ -1,20 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap");
-
-
 nav a:hover {
   color: white !important;
 }
 
-.logo:hover{
-  color:  white !important;
+.logo:hover {
+  color: white !important;
 }
 
 @media (max-width: 700px) {
-  .navbar{
+  .navbar {
     flex-wrap: nowrap !important;
   }
 }
-
 body {
   background-color: rgb(192, 192, 185);
 }
@@ -28,20 +25,21 @@ body h1 {
   margin: 5px;
 }
 
-body p{
+body p {
   text-align: center;
   font-size: 30px;
 }
 
-.nav-link{
-  color: black !important
+.nav-link {
+  color: black !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   transform: scale(1.09) !important;
 }
 
-ul .active{
-  background-color:coral !important;
+ul .active {
+  background-color: coral !important;
 }
 
 .galeria {
@@ -194,5 +192,7 @@ ul .active{
   height: 400px;
   width: 100%;
 }
+
+
 
 /*# sourceMappingURL=Portfolio.css.map */
