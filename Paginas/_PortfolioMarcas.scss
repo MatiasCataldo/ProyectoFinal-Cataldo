@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;900&display=swap");
 
-
 nav a:hover {
   color: white !important;
 }
 
-.logo:hover{
-  color:  white !important;
+.logo:hover {
+  color: white !important;
 }
 
 @media (max-width: 700px) {
-  .navbar{
+  .navbar {
     flex-wrap: nowrap !important;
   }
 }
@@ -28,20 +27,21 @@ body h1 {
   margin: 5px;
 }
 
-body p{
+body p {
   text-align: center;
   font-size: 30px;
 }
 
-.nav-link{
+.nav-link {
   color: black !important;
 }
-.nav-link:hover{
+
+.nav-link:hover {
   transform: scale(1.09) !important;
 }
 
-.active{
-  background-color:coral !important;
+.active {
+  background-color: coral !important;
 }
 
 .galeria {
@@ -105,6 +105,7 @@ body p{
     grid-template-rows: repeat(4, 200px);
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .galeria {
     grid-template-columns: repeat(3, 1fr);
@@ -142,6 +143,7 @@ body p{
     grid-row: 4/5;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .galeria {
     grid-template-columns: repeat(4, 1fr);
@@ -181,4 +183,4 @@ body p{
   }
 }
 
-/*# sourceMappingURL=Portfolio.css.map */
+/*# sourceMappingURL=PortfolioMarcas.css.map */

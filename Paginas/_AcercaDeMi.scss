@@ -36,7 +36,6 @@ aside {
   justify-content: center;
 }
 
-
 .galeria {
   width: auto;
   min-height: 300px;
@@ -73,8 +72,7 @@ aside {
   background-image: url(../Imagenes/FotoAcercaDeMi3.jpg);
 }
 
-
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .galeria {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 200px);
@@ -89,6 +87,7 @@ aside {
     grid-row: 5/7;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .galeria {
     width: 95%;
@@ -108,6 +107,7 @@ aside {
     grid-row: 5/7;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .galeria {
     grid-template-columns: repeat(6, 1fr);
@@ -127,4 +127,4 @@ aside {
   }
 }
 
-/*# sourceMappingURL=AcercaDMi.css.map */
+/*# sourceMappingURL=AcercaDeMi.css.map */

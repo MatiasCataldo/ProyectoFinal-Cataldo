@@ -33,7 +33,7 @@ form h3 {
   color: white;
 }
 
-.color1 {
+.Formulario {
   display: list-item;
   min-height: 70px;
   justify-content: center;
@@ -43,7 +43,7 @@ form h3 {
   border-radius: 10px;
 }
 
-.color1 a {
+.Formulario a {
   padding: 10px;
 }
 

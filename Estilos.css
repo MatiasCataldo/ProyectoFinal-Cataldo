@@ -27,7 +27,12 @@ nav a {
 
 nav a:hover {
   color: white;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
   transform: scale(1.2);
+}
+
+.nav-link {
+  padding: 10px;
 }
 
 @media (max-width: 700px) {
@@ -47,8 +52,9 @@ nav a:hover {
 }
 
 .logo:hover {
-  text-shadow: 0 0 10px white;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
   transform: scale(1.1);
+  color: white;
 }
 
 .logo img {
@@ -79,7 +85,7 @@ main {
   border-radius: 10px;
 }
 
-.call strong{
+.call strong {
   font-size: 20px;
 }
 
@@ -301,6 +307,6 @@ body {
   border: 0px;
   text-align: center;
   align-items: center;
-} 
+}
 
 /*# sourceMappingURL=Estilos.css.map */
